@@ -5347,7 +5347,7 @@
 	</attribute>
 	<attribute>
 		<id>FSP_BASE_ADDR</id>
-		<default>0,0x0006030100000000</default>
+		<default>0,0x0006030100000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE</id>
@@ -5418,7 +5418,7 @@
 	</attribute>
 	<attribute>
 		<id>LPC_BUS_ADDR</id>
-		<default></default>
+		<default>0,0x0006030000000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -5442,23 +5442,23 @@
 	</attribute>
 	<attribute>
 		<id>NVIDIA_NPU_PRIVILEGED_ADDR</id>
-		<default></default>
+		<default>0,0x0006030200000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>NVIDIA_NPU_USER_REG_ADDR</id>
-		<default></default>
+		<default>0,0x0006030201000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>NVIDIA_PHY0_REG_ADDR</id>
-		<default></default>
+		<default>0,0x0006030201200000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>NVIDIA_PHY1_REG_ADDR</id>
-		<default></default>
+		<default>0,0x0006030201400000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>NX_RNG_ADDR</id>
-		<default></default>
+		<default>0,0x00060302031D0000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>PCI_BASE_ADDRS_32</id>
@@ -5474,35 +5474,19 @@
 	</attribute>
 	<attribute>
 		<id>PHB_MMIO_ADDRS_32</id>
-		<default>
-            0x000604C000000000,0x000604C080000000,
-            0x000604C100000000,0x000604C180000000,
-            0x000604C200000000,0x000604C280000000,
-        </default>
+		<default>6,0x000600C000000000,0x200000000000,0,0x080000000</default>
 	</attribute>
 	<attribute>
 		<id>PHB_MMIO_ADDRS_64</id>
-		<default>
-            0x0006040000000000,0x0006042000000000,
-            0x0006044000000000,0x0006046000000000,
-            0x0006048000000000,0x000604A000000000,
-        </default>
+		<default>6,0x0006000000000000,0x200000000000,0,0x2000000000</default>
 	</attribute>
 	<attribute>
 		<id>PHB_REG_ADDRS</id>
-		<default>
-            0x000604C3C0000000,0x000604C3C0100000,
-            0x000604C3C0200000,0x000604C3C0300000,
-            0x000604C3C0400000,0x000604C3C0500000,
-        </default>
+		<default>6,0x000600C3C0000000,0x200000000000,0,0x100000</default>
 	</attribute>
 	<attribute>
 		<id>PHB_XIVE_ESB_ADDRS</id>
-		<default>
-            0x000604C300000000,0x000604C320000000,
-            0x000604C340000000,0x000604C360000000,
-            0x000604C380000000,0x000604C3A0000000,
-        </default>
+		<default>6,0x000600C300000000,0x200000000000,0,0x20000000</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -5531,11 +5515,11 @@
 	</attribute>
 	<attribute>
 		<id>PSI_BRIDGE_BASE_ADDR</id>
-		<default>0,0x0006070203000000</default>
+		<default>0,0x0006030203000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>PSI_HB_ESB_ADDR</id>
-		<default>0x00060302031C0000</default>
+		<default>0,0x00060302031C0000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -5581,35 +5565,39 @@
 	</attribute>
 	<attribute>
 		<id>VAS_HYPERVISOR_WINDOW_CONTEXT_ADDR</id>
-		<default></default>
+		<default>0,0x0006013000000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>VAS_USER_WINDOW_CONTEXT_ADDR</id>
-		<default></default>
+		<default>0,0x0006013100000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>XIVE_CONTROLLER_BAR_ADDR</id>
-		<default>0,0x0006030203100000</default>
+		<default>0,0x0006030203100000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>XIVE_PRESENTATION_BAR_ADDR</id>
-		<default></default>
+		<default>0,0x6030203180000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>XIVE_PRESENTATION_NVT_ADDR</id>
-		<default></default>
+		<default>0,0x0006012000000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>XIVE_ROUTING_END_ADDR</id>
-		<default></default>
+		<default>0,0x0006011000000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>XIVE_ROUTING_ESB_ADDR</id>
-		<default></default>
+		<default>0,0x0006010000000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>XIVE_THREAD_MGMT1_BAR_ADDR</id>
 		<default>0x0006020000000000</default>
+	</attribute>
+	<attribute>
+		<id>XSCOM_BASE_ADDRESS</id>
+		<default>0,0x000603FC00000000,0x200000000000</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
