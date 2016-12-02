@@ -3096,6 +3096,10 @@
         <default>0x7D0</default>
     </attribute>
     <attribute>
+        <id>FREQ_PB_MHZ</id>
+        <default>1866</default>
+    </attribute>
+    <attribute>
         <id>FREQ_X_MHZ</id>
         <default>0x708</default>
     </attribute>
@@ -5291,7 +5295,7 @@
 		<default>
 				<field><id>i2cMasterPath</id><value>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/i2c-master-prom3-sbe-backup/</value></field>
 				<field><id>port</id><value>1</value></field>
-				<field><id>devAddr</id><value>0xA2</value></field>
+				<field><id>devAddr</id><value>0xA8</value></field>
 				<field><id>engine</id><value>0</value></field>
 				<field><id>byteAddrOffset</id><value>0x02</value></field>
 				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
@@ -5305,7 +5309,7 @@
 		<default>
 				<field><id>i2cMasterPath</id><value>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/i2c-master-prom1-sbe-primary/</value></field>
 				<field><id>port</id><value>0</value></field>
-				<field><id>devAddr</id><value>0xA2</value></field>
+				<field><id>devAddr</id><value>0xA8</value></field>
 				<field><id>engine</id><value>0</value></field>
 				<field><id>byteAddrOffset</id><value>0x02</value></field>
 				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
@@ -5318,11 +5322,11 @@
 		<id>EEPROM_VPD_BACKUP_INFO</id>
 		<default>
 				<field><id>i2cMasterPath</id><value>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/i2c-master-prom2-mvpd-backup/</value></field>
-				<field><id>port</id><value>1</value></field>
+				<field><id>port</id><value>2</value></field>
 				<field><id>devAddr</id><value>0xA0</value></field>
-				<field><id>engine</id><value>0</value></field>
+				<field><id>engine</id><value>1</value></field>
 				<field><id>byteAddrOffset</id><value>0x02</value></field>
-				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x80</value></field>
 				<field><id>chipCount</id><value>0x02</value></field>
 				<field><id>writePageSize</id><value>0x80</value></field>
 				<field><id>writeCycleTime</id><value>0x05</value></field>
@@ -5334,9 +5338,9 @@
 				<field><id>i2cMasterPath</id><value>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/i2c-master-prom0-mvpd-primary/</value></field>
 				<field><id>port</id><value>0</value></field>
 				<field><id>devAddr</id><value>0xA0</value></field>
-				<field><id>engine</id><value>0</value></field>
+				<field><id>engine</id><value>1</value></field>
 				<field><id>byteAddrOffset</id><value>0x02</value></field>
-				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x80</value></field>
 				<field><id>chipCount</id><value>0x02</value></field>
 				<field><id>writePageSize</id><value>0x80</value></field>
 				<field><id>writeCycleTime</id><value>0x05</value></field>
@@ -5378,7 +5382,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
-		<default>1000,1000,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
+		<default>1000,1000,0,0,400,400,400,400,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>I2C_SWITCHES</id>
