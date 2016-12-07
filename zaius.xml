@@ -3257,12 +3257,48 @@
 		<default>ZAIUS</default>
 	</attribute>
 	<attribute>
+		<id>SYSTEM_WOF_ENABLED</id>
+		<default>OFF</default>
+	</attribute>
+	<attribute>
 		<id>TEST_MIN_STRING</id>
 		<default>Z</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
 		<default>SYS</default>
+	</attribute>
+	<attribute>
+		<id>VDM_DROOP_EXTREME_OVERRIDE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>VDM_DROOP_LARGE_OVERRIDE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>VDM_DROOP_SMALL_OVERRIDE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>VDM_ENABLE</id>
+		<default>OFF</default>
+	</attribute>
+	<attribute>
+		<id>VDM_FMAX_OVERRIDE_KHZ</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>VDM_FMIN_OVERRIDE_KHZ</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>VDM_OVERVOLT_OVERRIDE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>VDM_VID_COMPARE_OVERRIDE_MV</id>
+		<default>0</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -23924,7 +23960,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>FSP</default>
+		<default>BMC</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
