@@ -15032,6 +15032,10 @@
 		<id>TYPE</id>
 		<default>MCS</default>
 	</attribute>
+	<attribute>
+		<id>MSS_MRW_UNSUPPORTED_RANK_CONFIG</id>
+		<default>0,0</default>
+	</attribute>
 </targetInstance>
 <targetInstance>
 	<id>mca0</id>
@@ -15534,6 +15538,10 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>MCS</default>
+	</attribute>
+	<attribute>
+		<id>MSS_MRW_UNSUPPORTED_RANK_CONFIG</id>
+		<default>0,0</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -16111,6 +16119,10 @@
 		<id>TYPE</id>
 		<default>MCS</default>
 	</attribute>
+	<attribute>
+		<id>MSS_MRW_UNSUPPORTED_RANK_CONFIG</id>
+		<default>0,0</default>
+	</attribute>
 </targetInstance>
 <targetInstance>
 	<id>mca4</id>
@@ -16613,6 +16625,10 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>MCS</default>
+	</attribute>
+	<attribute>
+		<id>MSS_MRW_UNSUPPORTED_RANK_CONFIG</id>
+		<default>0,0</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
