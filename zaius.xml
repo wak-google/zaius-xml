@@ -5659,6 +5659,30 @@
         <id>CLOCK_PLL_MUX</id>
         <default>0x8c010000</default>
     </attribute>
+    <attribute>
+        <id>VDD_AVSBUS_BUSNUM</id>
+        <default>0</default>
+    </attribute>
+    <attribute>
+        <id>VDD_AVSBUS_RAIL</id>
+        <default>1</default>
+    </attribute>
+    <attribute>
+        <id>VCS_AVSBUS_BUSNUM</id>
+        <default>1</default>
+    </attribute>
+    <attribute>
+        <id>VCS_AVSBUS_RAIL</id>
+        <default>0</default>
+    </attribute>
+    <attribute>
+        <id>VDN_AVSBUS_BUSNUM</id>
+        <default>1</default>
+    </attribute>
+    <attribute>
+        <id>VDN_AVSBUS_RAIL</id>
+        <default>1</default>
+    </attribute>
 </targetInstance>
 <targetInstance>
 	<id>eq0</id>
@@ -40306,7 +40330,6 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
-<!--
 	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
@@ -40321,7 +40344,6 @@
 				<field><id>writeCycleTime</id><value></value></field>
 		</default>
 	</attribute>
--->
 	<attribute>
 		<id>HWAS_STATE</id>
 		<default>
@@ -40368,7 +40390,7 @@
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
-<!--
+
 	<attribute>
 		<id>TEMP_SENSOR_I2C_CONFIG</id>
 		<default>
@@ -40378,7 +40400,6 @@
 				<field><id>devAddr</id><value></value></field>
 		</default>
 	</attribute>
--->
 	<attribute>
 		<id>TYPE</id>
 		<default>DIMM</default>
@@ -40406,7 +40427,6 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
-<!--
 	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
@@ -40421,7 +40441,6 @@
 				<field><id>writeCycleTime</id><value></value></field>
 		</default>
 	</attribute>
--->
 	<attribute>
 		<id>HWAS_STATE</id>
 		<default>
@@ -40468,7 +40487,6 @@
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
-<!--
 	<attribute>
 		<id>TEMP_SENSOR_I2C_CONFIG</id>
 		<default>
@@ -40478,7 +40496,6 @@
 				<field><id>devAddr</id><value></value></field>
 		</default>
 	</attribute>
--->
 	<attribute>
 		<id>TYPE</id>
 		<default>DIMM</default>
@@ -40506,7 +40523,6 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
-<!--
 	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
@@ -40521,7 +40537,6 @@
 				<field><id>writeCycleTime</id><value></value></field>
 		</default>
 	</attribute>
--->
 	<attribute>
 		<id>HWAS_STATE</id>
 		<default>
@@ -40568,7 +40583,6 @@
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
-<!--
 	<attribute>
 		<id>TEMP_SENSOR_I2C_CONFIG</id>
 		<default>
@@ -40578,7 +40592,6 @@
 				<field><id>devAddr</id><value></value></field>
 		</default>
 	</attribute>
--->
 	<attribute>
 		<id>TYPE</id>
 		<default>DIMM</default>
@@ -40606,7 +40619,6 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
-<!--
 	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
@@ -40621,7 +40633,6 @@
 				<field><id>writeCycleTime</id><value></value></field>
 		</default>
 	</attribute>
--->
 	<attribute>
 		<id>HWAS_STATE</id>
 		<default>
@@ -40668,7 +40679,6 @@
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
-<!--
 	<attribute>
 		<id>TEMP_SENSOR_I2C_CONFIG</id>
 		<default>
@@ -40678,7 +40688,6 @@
 				<field><id>devAddr</id><value></value></field>
 		</default>
 	</attribute>
--->
 	<attribute>
 		<id>TYPE</id>
 		<default>DIMM</default>
