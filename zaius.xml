@@ -4661,7 +4661,7 @@
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_KIND</id>
-		<default>NONE</default>
+		<default>SAPPHIRE</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_DEFAULT_HDDW_SLOT_COUNT</id>
@@ -15750,23 +15750,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLA</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLB</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_CDR_GAIN</id>
-		<default>0</default>
+		<default>0x56,0x47,0x47,0x47</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_LOFF_CONTROL</id>
-		<default>0</default>
+		<default>0x8000,0x8000,0x8000,0x8000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_PHASE_ROTATOR_CNTL</id>
-		<default>0</default>
+		<default>0xC800</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_CDR_LOOKAHEAD</id>
@@ -15778,7 +15778,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_CNTL</id>
-		<default>0</default>
+		<default>0x008B</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -15790,7 +15790,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CONTRL_REGISTER3</id>
-		<default>0</default>
+		<default>0x0064,0x0064,0x0064,0x0064</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_SYSTEM_CNTL</id>
@@ -15798,23 +15798,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_DCLCK_ROT</id>
-		<default>0</default>
+		<default>0x0022</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_FIFO_CONFIG_OFFSET</id>
-		<default>0</default>
+		<default>0x14</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG1</id>
-		<default>0</default>
+		<default>0xAA7A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG2</id>
-		<default>0</default>
+		<default>0x2000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_POWER_SEQ_ENABLE</id>
-		<default>0</default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_REFCLOCK_ENABLE</id>
@@ -16347,23 +16347,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLA</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLB</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_CDR_GAIN</id>
-		<default>0</default>
+		<default>0x56,0x47,0x47,0x47</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_LOFF_CONTROL</id>
-		<default>0</default>
+		<default>0x8000,0x8000,0x8000,0x8000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_PHASE_ROTATOR_CNTL</id>
-		<default>0</default>
+		<default>0xC800</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_CDR_LOOKAHEAD</id>
@@ -16375,7 +16375,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_CNTL</id>
-		<default>0</default>
+		<default>0x008B</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -16387,7 +16387,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CONTRL_REGISTER3</id>
-		<default>0</default>
+		<default>0x0064,0x0064,0x0064,0x0064</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_SYSTEM_CNTL</id>
@@ -16395,23 +16395,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_DCLCK_ROT</id>
-		<default>0</default>
+		<default>0x0022</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_FIFO_CONFIG_OFFSET</id>
-		<default>0</default>
+		<default>0x14</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG1</id>
-		<default>0</default>
+		<default>0xAA7A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG2</id>
-		<default>0</default>
+		<default>0x2000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_POWER_SEQ_ENABLE</id>
-		<default>0</default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_REFCLOCK_ENABLE</id>
@@ -17232,23 +17232,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLA</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLB</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_CDR_GAIN</id>
-		<default>0</default>
+		<default>0x56,0x47,0x47,0x47</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_LOFF_CONTROL</id>
-		<default>0</default>
+		<default>0x8000,0x8000,0x8000,0x8000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_PHASE_ROTATOR_CNTL</id>
-		<default>0</default>
+		<default>0xC800</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_CDR_LOOKAHEAD</id>
@@ -17260,7 +17260,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_CNTL</id>
-		<default>0</default>
+		<default>0x008B</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -17272,7 +17272,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CONTRL_REGISTER3</id>
-		<default>0</default>
+		<default>0x0064,0x0064,0x0064,0x0064</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_SYSTEM_CNTL</id>
@@ -17280,23 +17280,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_DCLCK_ROT</id>
-		<default>0</default>
+		<default>0x0022</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_FIFO_CONFIG_OFFSET</id>
-		<default>0</default>
+		<default>0x14</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG1</id>
-		<default>0</default>
+		<default>0xAA7A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG2</id>
-		<default>0</default>
+		<default>0x2000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_POWER_SEQ_ENABLE</id>
-		<default>0</default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_REFCLOCK_ENABLE</id>
