@@ -5190,7 +5190,7 @@
 	</attribute>
 	<attribute>
 		<id>XSCOM_BASE_ADDRESS</id>
-		<default>0x000603FC00000000</default>
+		<default>0,0x000603FC00000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>X_EREPAIR_THRESHOLD_FIELD</id>
@@ -8905,7 +8905,7 @@
 	</attribute>
 	<attribute>
 		<id>PSI_HB_ESB_ADDR</id>
-		<default>0x00060302031C0000</default>
+		<default>0,0x00060302031C0000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>PSTATEGPE_BOOT_COPIER_IVPR_OFFSET</id>
@@ -9195,7 +9195,7 @@
 	</attribute>
 	<attribute>
 		<id>XSCOM_BASE_ADDRESS</id>
-		<default>0x000603FC00000000</default>
+		<default>0,0x000603FC00000000,0x200000000000</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -41191,11 +41191,11 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
-		<default>0x01</default>
+		<default>0x03</default>
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -41310,11 +41310,11 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
-		<default>0x01</default>
+		<default>0x03</default>
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -119967,7 +119967,7 @@
 	</attribute>
 	<attribute>
 		<id>WRITE_PAGE_SIZE</id>
-		<default>0x50</default>
+		<default>0x08</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
