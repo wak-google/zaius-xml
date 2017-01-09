@@ -2301,7 +2301,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2330,7 +2330,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2359,7 +2359,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2388,7 +2388,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2417,7 +2417,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2446,7 +2446,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2475,7 +2475,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2504,7 +2504,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2533,7 +2533,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2562,7 +2562,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2591,7 +2591,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAC</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2620,7 +2620,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAE</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2649,7 +2649,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2678,7 +2678,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2707,7 +2707,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2747,7 +2747,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAE</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2787,7 +2787,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAC</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2816,7 +2816,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2845,7 +2845,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2874,7 +2874,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAC</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2903,7 +2903,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAE</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2932,7 +2932,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2961,7 +2961,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -2990,7 +2990,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -3019,7 +3019,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAE</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -3048,7 +3048,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAC</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -3077,7 +3077,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -3106,7 +3106,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -3135,7 +3135,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -3164,7 +3164,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -3193,7 +3193,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -3222,7 +3222,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -4041,7 +4041,7 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_HBRT_NUM_SECTIONS</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_HBRT_SECTION_SIZE</id>
@@ -4160,7 +4160,7 @@
 	</attribute>
 	<attribute>
 		<id>MAX_MCS_PER_SYSTEM</id>
-		<default>4</default>
+		<default>8</default>
 	</attribute>
 	<attribute>
 		<id>MAX_PROC_CHIPS_PER_NODE</id>
@@ -4649,11 +4649,11 @@
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_BASE</id>
-		<default>256</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_ENTRY</id>
-		<default>0x180</default>
+		<default>0x10</default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_IN_MIRROR_MEM</id>
@@ -4661,7 +4661,7 @@
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_KIND</id>
-		<default>NONE</default>
+		<default>SAPPHIRE</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_DEFAULT_HDDW_SLOT_COUNT</id>
@@ -5190,7 +5190,7 @@
 	</attribute>
 	<attribute>
 		<id>XSCOM_BASE_ADDRESS</id>
-		<default></default>
+		<default>0x000603FC00000000</default>
 	</attribute>
 	<attribute>
 		<id>X_EREPAIR_THRESHOLD_FIELD</id>
@@ -5224,6 +5224,20 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>EEPROM_VPD_PRIMARY_INFO</id>
+		<default>
+			<field><id>byteAddrOffset</id><value>0x02</value></field>
+			<field><id>chipCount</id><value>0x01</value></field>
+			<field><id>devAddr</id><value>0xA0</value></field>
+			<field><id>engine</id><value>2</value></field>
+			<field><id>i2cMasterPath</id><value>physical:sys-0/node-0/proc-0</value></field>
+			<field><id>maxMemorySizeKB</id><value>0x40</value></field>
+			<field><id>port</id><value>0</value></field>
+			<field><id>writeCycleTime</id><value>20</value></field>
+			<field><id>writePageSize</id><value>32</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -7925,7 +7939,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
-		<default>1000,1000,0,0,400,400,400,400,0,0,0,0,0,0,0,0</default>
+		<default>1000,1000,0,0,400,400,400,400,400,0,0,0,400,400,0,0</default>
 	</attribute>
 	<attribute>
 		<id>I2C_SLAVE_ADDRESS</id>
@@ -9181,7 +9195,7 @@
 	</attribute>
 	<attribute>
 		<id>XSCOM_BASE_ADDRESS</id>
-		<default>0,0x000603FC00000000,0x200000000000</default>
+		<default>0x000603FC00000000</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -9206,7 +9220,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x10</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -9363,7 +9377,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x10</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -9497,7 +9511,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x20</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -10000,7 +10014,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x21</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -10145,7 +10159,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x10</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -10279,7 +10293,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x22</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -10401,7 +10415,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x23</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -10522,7 +10536,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x11</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -10679,7 +10693,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x11</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -10813,7 +10827,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x24</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -10935,7 +10949,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x25</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -11080,7 +11094,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x11</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -11214,7 +11228,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x26</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -11336,7 +11350,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x27</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -11457,7 +11471,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x12</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -11614,7 +11628,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x12</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -11748,7 +11762,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x28</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -11870,7 +11884,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x29</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -12015,7 +12029,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x12</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -12149,7 +12163,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2A</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -12271,7 +12285,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2B</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -12392,7 +12406,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x13</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -12549,7 +12563,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x13</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -12683,7 +12697,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2C</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -12805,7 +12819,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2D</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -12950,7 +12964,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x13</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -13084,7 +13098,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2E</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -13206,7 +13220,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2F</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -13327,7 +13341,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x14</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -13484,7 +13498,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x14</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -13618,7 +13632,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x30</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -13740,7 +13754,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x31</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -13885,7 +13899,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x14</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -14019,7 +14033,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x32</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -14141,7 +14155,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x33</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -14262,7 +14276,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x15</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -14419,7 +14433,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x15</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -14553,7 +14567,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x34</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -14675,7 +14689,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x35</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -14820,7 +14834,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x15</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -14954,7 +14968,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x36</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -15076,7 +15090,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x37</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -15640,7 +15654,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0xD</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -15736,23 +15750,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLA</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLB</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_CDR_GAIN</id>
-		<default>0</default>
+		<default>0x56,0x47,0x47,0x47</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_LOFF_CONTROL</id>
-		<default>0</default>
+		<default>0x8000,0x8000,0x8000,0x8000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_PHASE_ROTATOR_CNTL</id>
-		<default>0</default>
+		<default>0xC800</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_CDR_LOOKAHEAD</id>
@@ -15764,7 +15778,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_CNTL</id>
-		<default>0</default>
+		<default>0x008B</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -15776,7 +15790,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CONTRL_REGISTER3</id>
-		<default>0</default>
+		<default>0x0064,0x0064,0x0064,0x0064</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_SYSTEM_CNTL</id>
@@ -15784,23 +15798,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_DCLCK_ROT</id>
-		<default>0</default>
+		<default>0x0022</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_FIFO_CONFIG_OFFSET</id>
-		<default>0</default>
+		<default>0x14</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG1</id>
-		<default>0</default>
+		<default>0xAA7A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG2</id>
-		<default>0</default>
+		<default>0x2000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_POWER_SEQ_ENABLE</id>
-		<default>0</default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_REFCLOCK_ENABLE</id>
@@ -16172,7 +16186,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0xFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -16237,7 +16251,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0xE</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -16333,23 +16347,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLA</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLB</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_CDR_GAIN</id>
-		<default>0</default>
+		<default>0x56,0x47,0x47,0x47</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_LOFF_CONTROL</id>
-		<default>0</default>
+		<default>0x8000,0x8000,0x8000,0x8000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_PHASE_ROTATOR_CNTL</id>
-		<default>0</default>
+		<default>0xC800</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_CDR_LOOKAHEAD</id>
@@ -16361,7 +16375,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_CNTL</id>
-		<default>0</default>
+		<default>0x008B</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -16373,7 +16387,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CONTRL_REGISTER3</id>
-		<default>0</default>
+		<default>0x0064,0x0064,0x0064,0x0064</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_SYSTEM_CNTL</id>
@@ -16381,23 +16395,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_DCLCK_ROT</id>
-		<default>0</default>
+		<default>0x0022</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_FIFO_CONFIG_OFFSET</id>
-		<default>0</default>
+		<default>0x14</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG1</id>
-		<default>0</default>
+		<default>0xAA7A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG2</id>
-		<default>0</default>
+		<default>0x2000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_POWER_SEQ_ENABLE</id>
-		<default>0</default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_REFCLOCK_ENABLE</id>
@@ -16770,7 +16784,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0xFF00</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -17055,7 +17069,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0x00FF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -17122,7 +17136,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0xF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -17218,23 +17232,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLA</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLB</id>
-		<default>0</default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_CDR_GAIN</id>
-		<default>0</default>
+		<default>0x56,0x47,0x47,0x47</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_LOFF_CONTROL</id>
-		<default>0</default>
+		<default>0x8000,0x8000,0x8000,0x8000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_PHASE_ROTATOR_CNTL</id>
-		<default>0</default>
+		<default>0xC800</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_CDR_LOOKAHEAD</id>
@@ -17246,7 +17260,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_CNTL</id>
-		<default>0</default>
+		<default>0x008B</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -17258,7 +17272,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CONTRL_REGISTER3</id>
-		<default>0</default>
+		<default>0x0064,0x0064,0x0064,0x0064</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_SYSTEM_CNTL</id>
@@ -17266,23 +17280,23 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_DCLCK_ROT</id>
-		<default>0</default>
+		<default>0x0022</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_FIFO_CONFIG_OFFSET</id>
-		<default>0</default>
+		<default>0x14</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG1</id>
-		<default>0</default>
+		<default>0xAA7A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG2</id>
-		<default>0</default>
+		<default>0x2000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_POWER_SEQ_ENABLE</id>
-		<default>0</default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_REFCLOCK_ENABLE</id>
@@ -17654,7 +17668,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0xFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -18048,7 +18062,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0xFF00</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -18333,7 +18347,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0x00FF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -18728,7 +18742,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0x00F0</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -19013,7 +19027,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0x000F</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -19077,7 +19091,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x5</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -21879,7 +21893,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x1</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -22002,7 +22016,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -22125,7 +22139,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x3</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -22248,7 +22262,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x4</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -22371,7 +22385,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x5</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -22494,7 +22508,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x6</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -22617,7 +22631,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x7</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -22740,7 +22754,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x8</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -22863,7 +22877,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x9</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -22986,7 +23000,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0xC</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -23109,7 +23123,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0xD</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -23232,7 +23246,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0xE</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -23355,7 +23369,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0xF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -23478,7 +23492,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x10</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -23601,7 +23615,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x11</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -23724,7 +23738,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x12</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -23847,7 +23861,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x13</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -23970,7 +23984,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x14</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -24093,7 +24107,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x15</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -24216,7 +24230,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x20</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -24339,7 +24353,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x21</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -24462,7 +24476,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x22</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -24585,7 +24599,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x23</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -24708,7 +24722,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x24</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -24831,7 +24845,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x25</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -24954,7 +24968,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x26</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -25077,7 +25091,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x27</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -25200,7 +25214,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x28</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -25323,7 +25337,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x29</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -25446,7 +25460,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2A</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -25569,7 +25583,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2B</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -25692,7 +25706,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2C</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -25815,7 +25829,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2D</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -25938,7 +25952,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2E</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -26061,7 +26075,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x2F</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -26184,7 +26198,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x30</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -26307,7 +26321,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x31</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -26430,7 +26444,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x32</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -26553,7 +26567,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x33</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -26676,7 +26690,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x34</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -26799,7 +26813,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x35</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -26922,7 +26936,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x36</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -27045,7 +27059,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x37</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -27172,7 +27186,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x6</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -27319,7 +27333,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x6</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -29468,7 +29482,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x07</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -29835,7 +29849,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x7</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -32005,7 +32019,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x7</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -32372,7 +32386,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x7</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -34739,7 +34753,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x8</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -35106,7 +35120,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x8</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -37276,7 +37290,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x8</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -37643,7 +37657,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x8</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
