@@ -1913,6 +1913,10 @@
 		<value>48</value>
 		</enumerator>
 		<enumerator>
+		<name>GPIO_EXPANDER</name>
+		<value>62</value>
+		</enumerator>
+		<enumerator>
 		<name>VRM</name>
 		<value>54</value>
 		</enumerator>
@@ -1965,6 +1969,10 @@
 		<value>35</value>
 		</enumerator>
 		<enumerator>
+		<name>FLASH</name>
+		<value>59</value>
+		</enumerator>
+		<enumerator>
 		<name>NA</name>
 		<value>0</value>
 		</enumerator>
@@ -1974,11 +1982,15 @@
 		</enumerator>
 		<enumerator>
 		<name>LAST_IN_RANGE</name>
-		<value>59</value>
+		<value>67</value>
 		</enumerator>
 		<enumerator>
 		<name>PCI</name>
 		<value>16</value>
+		</enumerator>
+		<enumerator>
+		<name>RTC</name>
+		<value>64</value>
 		</enumerator>
 		<enumerator>
 		<name>CAPP</name>
@@ -1995,6 +2007,10 @@
 		<enumerator>
 		<name>DIMM</name>
 		<value>3</value>
+		</enumerator>
+		<enumerator>
+		<name>SEEPROM</name>
+		<value>60</value>
 		</enumerator>
 		<enumerator>
 		<name>REFCLKENDPT</name>
@@ -2034,7 +2050,7 @@
 		</enumerator>
 		<enumerator>
 		<name>TEST_FAIL</name>
-		<value>58</value>
+		<value>66</value>
 		</enumerator>
 		<enumerator>
 		<name>PORE</name>
@@ -2043,6 +2059,10 @@
 		<enumerator>
 		<name>SBE</name>
 		<value>42</value>
+		</enumerator>
+		<enumerator>
+		<name>BMC</name>
+		<value>58</value>
 		</enumerator>
 		<enumerator>
 		<name>PERV</name>
@@ -2055,6 +2075,10 @@
 		<enumerator>
 		<name>OSC</name>
 		<value>23</value>
+		</enumerator>
+		<enumerator>
+		<name>FANCTLR</name>
+		<value>65</value>
 		</enumerator>
 		<enumerator>
 		<name>ABUS</name>
@@ -2125,8 +2149,16 @@
 		<value>5</value>
 		</enumerator>
 		<enumerator>
+		<name>POWER_SEQUENCER</name>
+		<value>63</value>
+		</enumerator>
+		<enumerator>
 		<name>OSCREFCLK</name>
 		<value>26</value>
+		</enumerator>
+		<enumerator>
+		<name>TMP</name>
+		<value>61</value>
 		</enumerator>
 		<enumerator>
 		<name>ETH</name>
@@ -2304,7 +2336,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0/dimm-thermal-sensor</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2367,7 +2406,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2423,7 +2462,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-10/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-10/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2482,7 +2521,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-11/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-11/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2534,7 +2573,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-12/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-12/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2586,7 +2625,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-13/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-13/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2638,7 +2677,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-14/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-14/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2690,7 +2729,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-15/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-15/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2742,7 +2781,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-16/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-16/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2794,7 +2833,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-17/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-17/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2846,7 +2885,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-18/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-18/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2898,7 +2937,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-19/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-19/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -2950,7 +2989,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-2/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-2/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3013,7 +3052,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-20/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-20/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3065,7 +3104,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-21/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-21/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3128,7 +3167,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-22/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-22/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3187,7 +3226,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-23/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-23/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3239,7 +3278,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-24/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-24/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3302,7 +3341,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-25/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-25/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3354,7 +3393,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-26/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-26/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3406,7 +3445,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-27/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-27/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3458,7 +3497,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-28/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-28/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3510,7 +3549,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-29/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-29/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3562,7 +3601,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3618,7 +3657,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-30/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-30/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3670,7 +3709,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-31/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-31/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3722,7 +3761,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-4/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-4/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3778,7 +3817,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-5/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-5/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3830,7 +3869,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-6/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-6/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3882,7 +3921,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-7/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-7/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3934,7 +3973,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-8/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-8/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -3986,7 +4025,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-9/dimm-0/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-9/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -7772,13 +7811,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-0/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-0/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-0/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-0/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -7789,17 +7828,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-1/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-1/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-1/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-1/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -7810,17 +7849,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-2/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-2/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-2/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-2/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -7831,17 +7870,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-3/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-3/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-3/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-3/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -7852,17 +7891,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-4/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-4/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-4/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-4/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -7873,17 +7912,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-5/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-5/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-5/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-5/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -7894,17 +7933,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-6/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-6/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-6/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-6/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -7915,17 +7954,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-7/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-7/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-7/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-7/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -7936,17 +7975,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-8/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-8/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-8/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-8/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -7957,17 +7996,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-9/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-9/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-9/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-9/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -7978,17 +8017,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-10/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-10/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-10/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-10/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -7999,17 +8038,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-11/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-11/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-11/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-11/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8020,17 +8059,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-12/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-12/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-12/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-12/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8041,17 +8080,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-13/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-13/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-13/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-13/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8062,17 +8101,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-14/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-14/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-14/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-14/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8083,17 +8122,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-15/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-15/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-15/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-15/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8104,17 +8143,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-16/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-16/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-16/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-16/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8125,17 +8164,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-17/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-17/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-17/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-17/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8146,17 +8185,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-18/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-18/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-18/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-18/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8167,17 +8206,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-19/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-19/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-19/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-19/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8188,17 +8227,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-20/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-20/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-20/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-20/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8209,17 +8248,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-21/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-21/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-21/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-21/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8230,17 +8269,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-22/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-22/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-22/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-22/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8251,17 +8290,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-23/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-23/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-23/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-23/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8272,17 +8311,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-24/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-24/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-24/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-24/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8293,17 +8332,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-25/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-25/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-25/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-25/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8314,17 +8353,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-26/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-26/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-26/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-26/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8335,17 +8374,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-27/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm4567 => dimmconn-27/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm4567</source_target>
-		<dest_path>dimmconn-27/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-27/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8356,17 +8395,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-28/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-28/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-28/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-28/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8377,17 +8416,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-29/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-29/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-29/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-29/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8398,17 +8437,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-30/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-30/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-30/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-30/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8419,17 +8458,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-31/dimm-0/i2c-slave</bus_id>
+		<bus_id>proc_socket-1/module-0/p9_proc_l/i2c-master-dimm0123 => dimmconn-31/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-1/module-0/p9_proc_l/</source_path>
 		<source_target>i2c-master-dimm0123</source_target>
-		<dest_path>dimmconn-31/dimm-0/</dest_path>
-		<dest_target>i2c-slave</dest_target>
+		<dest_path>dimmconn-31/dimm-0/dimm-thermal-sensor/</dest_path>
+		<dest_target>dimm-thermal-sensor.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -8440,7 +8479,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -11103,6 +11142,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>CPU</default>
 	</attribute>
@@ -11154,12 +11197,20 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -11230,6 +11281,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
@@ -11319,6 +11374,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -11341,6 +11400,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -11392,6 +11455,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -11457,6 +11524,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -11467,6 +11538,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -11917,6 +11992,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>CPU</default>
 	</attribute>
@@ -11980,6 +12059,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -11990,6 +12073,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -12044,6 +12131,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
@@ -12133,6 +12224,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -12155,6 +12250,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -12206,6 +12305,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -12271,6 +12374,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -12281,6 +12388,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -12336,6 +12447,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -12401,6 +12516,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -12411,6 +12530,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -12467,6 +12590,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>CPU</default>
 	</attribute>
@@ -12518,12 +12645,20 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -12596,6 +12731,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -12683,6 +12822,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -12705,6 +12848,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -12756,6 +12903,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -12821,6 +12972,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -12831,6 +12986,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -12886,6 +13045,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -12951,6 +13114,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -12961,6 +13128,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -13015,6 +13186,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
@@ -13104,6 +13279,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -13126,6 +13305,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -13177,6 +13360,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -13242,6 +13429,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -13252,6 +13443,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -13307,6 +13502,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -13372,6 +13571,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -13382,6 +13585,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -13438,6 +13645,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>CPU</default>
 	</attribute>
@@ -13489,12 +13700,20 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -13567,6 +13786,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -13654,6 +13877,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -13676,6 +13903,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -13727,6 +13958,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -13792,6 +14027,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -13802,6 +14041,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -13857,6 +14100,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -13922,6 +14169,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -13932,6 +14183,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -13986,6 +14241,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
@@ -14075,6 +14334,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -14097,6 +14360,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -14148,6 +14415,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -14213,6 +14484,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -14223,6 +14498,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -14278,6 +14557,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -14343,6 +14626,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -14353,6 +14640,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -14409,6 +14700,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>CPU</default>
 	</attribute>
@@ -14460,12 +14755,20 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -14536,6 +14839,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
@@ -14625,6 +14932,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -14647,6 +14958,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -14698,6 +15013,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -14763,6 +15082,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -14773,6 +15096,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -14828,6 +15155,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -14893,6 +15224,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -14903,6 +15238,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -14957,6 +15296,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
@@ -15046,6 +15389,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -15068,6 +15415,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -15119,6 +15470,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -15184,6 +15539,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -15194,6 +15553,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -15249,6 +15612,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -15314,6 +15681,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -15324,6 +15695,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -15380,6 +15755,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>CPU</default>
 	</attribute>
@@ -15431,12 +15810,20 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -15507,6 +15894,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
@@ -15596,6 +15987,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -15618,6 +16013,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -15669,6 +16068,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -15734,6 +16137,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -15744,6 +16151,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -15799,6 +16210,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -15864,6 +16279,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -15874,6 +16293,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -15928,6 +16351,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
@@ -16017,6 +16444,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -16039,6 +16470,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -16090,6 +16525,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -16155,6 +16594,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -16165,6 +16608,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -16220,6 +16667,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -16285,6 +16736,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -16295,6 +16750,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -16351,6 +16810,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>CPU</default>
 	</attribute>
@@ -16402,12 +16865,20 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -16478,6 +16949,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
@@ -16567,6 +17042,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -16589,6 +17068,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -16640,6 +17123,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -16705,6 +17192,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -16715,6 +17206,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -16770,6 +17265,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -16835,6 +17334,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -16845,6 +17348,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -16899,6 +17406,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>C0_EXEC_HASCLOCKS</id>
@@ -16988,6 +17499,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>L2_HASCLOCKS</id>
 		<default>0</default>
 	</attribute>
@@ -17010,6 +17525,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -17061,6 +17580,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -17126,6 +17649,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -17136,6 +17663,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -17191,6 +17722,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -17256,6 +17791,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -17266,6 +17805,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -29857,6 +30400,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>XBUS</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>FABRIC</default>
 	</attribute>
@@ -29875,6 +30422,10 @@
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
 	</attribute>
 	<attribute>
 		<id>EI_BUS_TX_MSBSWAP</id>
@@ -29936,12 +30487,20 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -29996,6 +30555,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>XBUS</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>FABRIC</default>
 	</attribute>
@@ -30014,6 +30577,10 @@
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
 	</attribute>
 	<attribute>
 		<id>EI_BUS_TX_MSBSWAP</id>
@@ -30075,12 +30642,20 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -30340,6 +30915,10 @@
 	<attribute>
 		<id>BAD_DQ_BITMAP</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>CDM_DOMAIN</id>
@@ -31197,6 +31776,10 @@
 		<default>0x0003E00000000000</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>LRDIMM_ADDITIONAL_CNTL_WORDS</id>
 		<default>0</default>
 	</attribute>
@@ -31219,6 +31802,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>MSS_CAL_STEP_ENABLE</id>
@@ -32906,6 +33493,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>MEM</default>
 	</attribute>
@@ -33761,6 +34352,10 @@
 		<default>0x0003E00000000000</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>LRDIMM_ADDITIONAL_CNTL_WORDS</id>
 		<default>0</default>
 	</attribute>
@@ -33783,6 +34378,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>MSS_CAL_STEP_ENABLE</id>
@@ -35671,6 +36270,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>MEM</default>
 	</attribute>
@@ -36526,6 +37129,10 @@
 		<default>0x0003E00000000000</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>LRDIMM_ADDITIONAL_CNTL_WORDS</id>
 		<default>0</default>
 	</attribute>
@@ -36548,6 +37155,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>MSS_CAL_STEP_ENABLE</id>
@@ -38235,6 +38846,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
 		<id>CDM_DOMAIN</id>
 		<default>MEM</default>
 	</attribute>
@@ -39090,6 +39705,10 @@
 		<default>0x0003E00000000000</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>LRDIMM_ADDITIONAL_CNTL_WORDS</id>
 		<default>0</default>
 	</attribute>
@@ -39112,6 +39731,10 @@
 	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>MSS_CAL_STEP_ENABLE</id>
@@ -126366,7 +126989,7 @@
 	<position>0</position>
 	<child_id>ddr4</child_id>
 	<child_id>spd</child_id>
-	<child_id>i2c-slave</child_id>
+	<child_id>dimm-thermal-sensor</child_id>
 	<hidden_child_id>dimm_temp_sensor</hidden_child_id>
 	<hidden_child_id>dimm_func_sensor</hidden_child_id>
 	<attribute>
@@ -126766,6 +127389,14 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>I2C_SPEED</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -126829,6 +127460,268 @@
 	<attribute>
 		<id>WRITE_PAGE_SIZE</id>
 		<default>0x08</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>dimm-thermal-sensor</id>
+	<type>chip-dimm-thermal-sensor</type>
+	<is_root>false</is_root>
+	<instance_name>dimm-thermal-sensor</instance_name>
+	<position>-1</position>
+	<child_id>dimm-thermal-sensor.i2c</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>EC</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_TYPE</id>
+		<default>NO_MASTER</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FSI_SLAVE_CASCADE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>dimm-thermal-sensor.i2c</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>dimm-thermal-sensor.i2c</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -131750,6 +132643,14 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>I2C_SPEED</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
