@@ -4507,7 +4507,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_FAMILY</id>
-		<default>ibm,p9</default>
+		<default>ingrasys,p9</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IPL_PHASE</id>
@@ -4535,7 +4535,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_TYPE</id>
-		<default>ibm,miscopenpower</default>
+		<default>ingrasys,zaius</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_ENABLED</id>
