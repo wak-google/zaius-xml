@@ -1382,6 +1382,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>PRESENCE_DETECT</id>
+		<enumerator>
+		<name>'0' means present</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>'1' means present</name>
+		<value>1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>PROC_EPS_TABLE_TYPE</id>
 		<enumerator>
 		<name>EPS_TYPE_HE</name>
@@ -4159,6 +4170,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/fsi-slave-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -4192,6 +4210,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/fsim-2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/i2c-master-dimm0123</id>
 	<property>
 	<id>DIRECTION</id>
@@ -4204,6 +4237,17 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/i2c-master-dimm4567</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/i2c-master-hotplug</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -4228,9 +4272,34 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist0/mcs0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist0/mcs0/mca0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist0/mcs0/mca0/ddr_ch0:cs0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -4238,6 +4307,13 @@
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist0/mcs0/mca0/ddr_ch0:cs1</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist0/mcs0/mca1</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -4256,9 +4332,27 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist0/mcs1</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist0/mcs1/mca2</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist0/mcs1/mca2/ddr_ch2:cs0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -4266,6 +4360,17 @@
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist0/mcs1/mca2/ddr_ch2:cs1</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist0/mcs1/mca3</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -4284,6 +4389,27 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist1</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist1/mcs2</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist1/mcs2/mca4</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist1/mcs2/mca4/ddr_ch4:cs0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -4294,6 +4420,13 @@
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist1/mcs2/mca4/ddr_ch4:cs1</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist1/mcs2/mca5</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -4312,6 +4445,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist1/mcs3</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist1/mcs3/mca6</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist1/mcs3/mca6/ddr_ch6:cs0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -4322,6 +4469,13 @@
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist1/mcs3/mca6/ddr_ch6:cs1</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/mcbist1/mcs3/mca7</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -4373,11 +4527,19 @@
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_l/xbus2</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -30869,7 +31031,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -32362,7 +32524,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -32828,7 +32990,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -33207,7 +33369,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -34938,7 +35100,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -35404,7 +35566,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -35783,7 +35945,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -36222,7 +36384,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -37715,7 +37877,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -38181,7 +38343,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -38560,7 +38722,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -40291,7 +40453,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -40757,7 +40919,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -41136,7 +41298,7 @@
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
-		<default>0xFF</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -131281,6 +131443,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>POSITION</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
 		<default>
 				<field><id>supportsFsiScom</id><value></value></field>
@@ -131568,6 +131734,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>POSITION</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
 		<default>
 				<field><id>supportsFsiScom</id><value></value></field>
@@ -131653,6 +131823,10 @@
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -131744,6 +131918,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>POSITION</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
 		<default>
 				<field><id>supportsFsiScom</id><value></value></field>
@@ -131832,6 +132010,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>POSITION</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
 		<default>
 				<field><id>supportsFsiScom</id><value></value></field>
@@ -131917,6 +132099,10 @@
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -132333,6 +132519,7 @@
 	<is_root>false</is_root>
 	<instance_name>gpu</instance_name>
 	<position>0</position>
+	<child_id>led_assoc_child</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -132436,6 +132623,121 @@
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>led_assoc_child</id>
+	<type>unit-logic_assoc-generic</type>
+	<is_root>false</is_root>
+	<instance_name>led_assoc_child</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ASSOCIATION_TYPE</id>
+		<default>LED</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>LOGICAL_ASSOCIATION</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
