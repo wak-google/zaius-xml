@@ -2402,6 +2402,326 @@
 	</property>
 </globalSetting>
 <globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-2/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-4/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-5/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-6/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-7/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-8/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-9/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-10/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-11/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-12/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-13/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-14/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-15/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-16/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-17/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-18/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-19/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-20/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-21/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-24/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-25/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-26/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-27/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-28/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-29/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-30/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+<globalSetting>
+        <id>/sys-0/node-0/motherboard-0/dimmconn-31/dimm-0</id>
+        <property>
+        <id>FRU_NAME</id>
+        <value></value>
+        </property>
+        <property>
+        <id>IPMI_INSTANCE</id>
+        <value></value>
+        </property>
+</globalSetting>
+
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-0/dimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -8386,7 +8706,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_MEM_THROTTLE_DENOMINATOR</id>
-		<default></default>
+		<default>512</default>
 	</attribute>
 	<attribute>
 		<id>MRW_NEST_CAPABLE_FREQUENCIES_SYS</id>
@@ -8414,7 +8734,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_VMEM_REGULATOR_MEMORY_POWER_LIMIT_PER_DIMM_DDR4</id>
-		<default>0x000006A4</default>
+		<default>1700</default>
 	</attribute>
 	<attribute>
 		<id>MSS_AVDD_PROGRAM</id>
@@ -8482,7 +8802,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_NUMBER_DIMMS_POSSIBLE_PER_VMEM_REGULATOR</id>
-		<default>0</default>
+		<default>16</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MCS_PREFETCH_RETRY_THRESHOLD</id>
