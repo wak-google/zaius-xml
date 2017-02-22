@@ -8301,7 +8301,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
-		<default>1866</default>
+		<default>2000</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PCIE_MHZ</id>
@@ -8888,7 +8888,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SUPPORTED_FREQ</id>
-		<default>0x74A,0,0,0</default>
+		<default>0x74A,0x855,0,0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_RANGE</id>
@@ -9460,7 +9460,7 @@
 	</attribute>
 	<attribute>
 		<id>REQUIRED_SYNCH_MODE</id>
-		<default>1</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -34197,7 +34197,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x07</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -39550,7 +39550,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
+		<default>0x08</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
