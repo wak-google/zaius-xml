@@ -8183,6 +8183,10 @@
 		<id>CP_REFCLOCK_RCVR_TERM</id>
 		<default>0</default>
 	</attribute>
+        <attribute>
+                <id>DD1_SLOW_PCI_REF_CLOCK</id>
+                <default>0</default>
+        </attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
 		<default>0</default>
