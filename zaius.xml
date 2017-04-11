@@ -13286,7 +13286,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
-		<default>1000,1000,0,0,1000,1000,0,1000,400,0,0,0,400,400,0,0</default>
+		<default>1000,1000,0,0,1000,1000,1000,1000,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE_MUTEX_0</id>
@@ -47508,11 +47508,11 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
-		<default>0x01</default>
+		<default>0x02</default>
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
